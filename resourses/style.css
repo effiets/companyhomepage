@@ -1,0 +1,170 @@
+html{
+   display: block;
+    
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    line-height: 1,5;
+    background-color:white;
+    text-align: center;
+}
+
+
+
+/* header */ 
+header{
+    height: 100px;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #c6c1c1;
+    background-color:aliceblue
+}
+
+
+.title{
+    display: flex;
+}
+
+.logo{  
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    
+} 
+
+
+nav{ 
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+ 
+
+a{
+    color: black;
+    text-decoration: none;
+    padding-left: 3rem;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+button{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+
+/* main */
+.company{
+    display: flex;
+    height: 800px;
+    padding-top: 5rem;
+   background-image: url("./images/background.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+  
+.main{
+    height: 150px;
+    background-color: beige;
+    width: 100%;
+    margin: auto;
+}
+
+h2, h4{
+    margin: 1.5rem auto;
+    font-weight: bold;
+    letter-spacing: .4rem;
+}
+
+
+/* portfolio */
+.portfolio{
+    min-height: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.content h2, .content h3{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.installContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ .install{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     width:350px;
+     height:250px;
+     margin: 2rem;
+ }
+
+ .install img{
+    height: auto;
+    width:350px;
+
+ }
+ .install p
+{
+    margin: 2px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* employees */
+.team{
+    background-image: url("./images/cubicles.jpg");
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.employee{
+    padding: 1.5rem;
+    flex-basis: 250px;
+}
+
+.employee img{
+    width: 200px;
+    height: auto;
+}
+ .employee h4{
+     color: black;
+     display: block;
+ }
+
+/* contact */
+
+.contact{
+    padding-top: 2rem;
+
+}
+
+footer{
+    margin-left: 1rem;
+    text-align: left;
+}
+
